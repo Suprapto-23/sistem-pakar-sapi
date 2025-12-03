@@ -22,7 +22,7 @@ Dilengkapi dashboard admin, manajemen basis pengetahuan, serta integrasi MySQL.
 - Laravel 12  
 - PHP 8.2  
 - MySQL  
-- Bootstrap / Tailwind (sesuai project kamu)  
+- Bootstrap / Tailwind
 
 ## 📦 Instalasi
 git clone https://github.com/Suprapto-23/sistem-pakar-sapi
