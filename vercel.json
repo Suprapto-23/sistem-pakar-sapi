@@ -7,8 +7,20 @@
     },
     "routes": [
         {
-            "src": "/(css|js|images|build)/(.*)",
+            "src": "/build/(.*)",
+            "dest": "public/build/$1"
+        },
+        {
+            "src": "/img/(.*)",
+            "dest": "public/img/$1"
+        },
+        {
+            "src": "/(css|js|images)/(.*)",
             "dest": "public/$1/$2"
+        },
+        {
+            "src": "/(.*\\.(png|jpg|jpeg|gif|svg|ico|webp))",
+            "dest": "public/$1"
         },
         {
             "src": "/(.*)",
